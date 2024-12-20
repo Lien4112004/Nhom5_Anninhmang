@@ -1,0 +1,110 @@
+D:\e\ElGamalSignature\obj\Debug\net8.0-windows\ElGamalSignature.csproj.AssemblyReference.cache
+D:\e\ElGamalSignature\obj\Debug\net8.0-windows\MainWindow.baml
+D:\e\ElGamalSignature\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\e\ElGamalSignature\obj\Debug\net8.0-windows\App.g.cs
+D:\e\ElGamalSignature\obj\Debug\net8.0-windows\ElGamalSignature_MarkupCompile.cache
+D:\e\ElGamalSignature\obj\Debug\net8.0-windows\ElGamalSignature.g.resources
+D:\e\ElGamalSignature\obj\Debug\net8.0-windows\ElGamalSignature.GeneratedMSBuildEditorConfig.editorconfig
+D:\e\ElGamalSignature\obj\Debug\net8.0-windows\ElGamalSignature.AssemblyInfoInputs.cache
+D:\e\ElGamalSignature\obj\Debug\net8.0-windows\ElGamalSignature.AssemblyInfo.cs
+D:\e\ElGamalSignature\obj\Debug\net8.0-windows\ElGamalSignature.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\obj\Debug\net8.0-windows\ElGamalSignature.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\obj\Debug\net8.0-windows\ElGamalSignature_MarkupCompile.cache
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\obj\Debug\net8.0-windows\ElGamalSignature.g.resources
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\obj\Debug\net8.0-windows\ElGamalSignature.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\obj\Debug\net8.0-windows\ElGamalSignature.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\obj\Debug\net8.0-windows\ElGamalSignature.AssemblyInfo.cs
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\obj\Debug\net8.0-windows\ElGamalSignature.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\ElGamalSignature.exe
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\ElGamalSignature.deps.json
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\ElGamalSignature.runtimeconfig.json
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\ElGamalSignature.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\ElGamalSignature.pdb
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.Framework.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\itext.barcodes.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\itext.bouncy-castle-connector.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\itext.forms.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\itext.io.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\itext.kernel.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\itext.layout.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\itext.pdfa.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\itext.pdfua.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\itext.sign.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\itext.styledxmlparser.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\itext.svg.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\itext.commons.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\itextsharp.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\System.IO.Packaging.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\Xceed.Document.NET.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\Xceed.PDF.NET.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\bin\Debug\net8.0-windows\Xceed.Words.NET.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\obj\Debug\net8.0-windows\ElGamalS.B1C29A1C.Up2Date
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\obj\Debug\net8.0-windows\ElGamalSignature.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\obj\Debug\net8.0-windows\refint\ElGamalSignature.dll
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\obj\Debug\net8.0-windows\ElGamalSignature.pdb
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\obj\Debug\net8.0-windows\ElGamalSignature.genruntimeconfig.cache
+C:\Users\ADMIN\Documents\Zalo Received Files\e\e\ElGamalSignature\obj\Debug\net8.0-windows\ref\ElGamalSignature.dll
+C:\ElGamalSignature\obj\Debug\net8.0-windows\ElGamalSignature.csproj.AssemblyReference.cache
+C:\ElGamalSignature\obj\Debug\net8.0-windows\MainWindow.baml
+C:\ElGamalSignature\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\ElGamalSignature\obj\Debug\net8.0-windows\App.g.cs
+C:\ElGamalSignature\obj\Debug\net8.0-windows\ElGamalSignature_MarkupCompile.cache
+C:\ElGamalSignature\obj\Debug\net8.0-windows\ElGamalSignature.g.resources
+C:\ElGamalSignature\obj\Debug\net8.0-windows\ElGamalSignature.GeneratedMSBuildEditorConfig.editorconfig
+C:\ElGamalSignature\obj\Debug\net8.0-windows\ElGamalSignature.AssemblyInfoInputs.cache
+C:\ElGamalSignature\obj\Debug\net8.0-windows\ElGamalSignature.AssemblyInfo.cs
+C:\ElGamalSignature\obj\Debug\net8.0-windows\ElGamalSignature.csproj.CoreCompileInputs.cache
+C:\ElGamalSignature\obj\Debug\net8.0-windows\ElGamalSignature.dll
+C:\ElGamalSignature\obj\Debug\net8.0-windows\refint\ElGamalSignature.dll
+C:\ElGamalSignature\obj\Debug\net8.0-windows\ElGamalSignature.pdb
+C:\ElGamalSignature\bin\Debug\net8.0-windows\ElGamalSignature.exe
+C:\ElGamalSignature\bin\Debug\net8.0-windows\ElGamalSignature.deps.json
+C:\ElGamalSignature\bin\Debug\net8.0-windows\ElGamalSignature.runtimeconfig.json
+C:\ElGamalSignature\bin\Debug\net8.0-windows\ElGamalSignature.dll
+C:\ElGamalSignature\bin\Debug\net8.0-windows\ElGamalSignature.pdb
+C:\ElGamalSignature\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\ElGamalSignature\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.dll
+C:\ElGamalSignature\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.Framework.dll
+C:\ElGamalSignature\bin\Debug\net8.0-windows\itext.barcodes.dll
+C:\ElGamalSignature\bin\Debug\net8.0-windows\itext.bouncy-castle-connector.dll
+C:\ElGamalSignature\bin\Debug\net8.0-windows\itext.forms.dll
+C:\ElGamalSignature\bin\Debug\net8.0-windows\itext.io.dll
+C:\ElGamalSignature\bin\Debug\net8.0-windows\itext.kernel.dll
+C:\ElGamalSignature\bin\Debug\net8.0-windows\itext.layout.dll
+C:\ElGamalSignature\bin\Debug\net8.0-windows\itext.pdfa.dll
+C:\ElGamalSignature\bin\Debug\net8.0-windows\itext.pdfua.dll
+C:\ElGamalSignature\bin\Debug\net8.0-windows\itext.sign.dll
+C:\ElGamalSignature\bin\Debug\net8.0-windows\itext.styledxmlparser.dll
+C:\ElGamalSignature\bin\Debug\net8.0-windows\itext.svg.dll
+C:\ElGamalSignature\bin\Debug\net8.0-windows\itext.commons.dll
+C:\ElGamalSignature\bin\Debug\net8.0-windows\itextsharp.dll
+C:\ElGamalSignature\bin\Debug\net8.0-windows\Microsoft.DotNet.PlatformAbstractions.dll
+C:\ElGamalSignature\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\ElGamalSignature\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\ElGamalSignature\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\ElGamalSignature\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\ElGamalSignature\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\ElGamalSignature\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\ElGamalSignature\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\ElGamalSignature\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\ElGamalSignature\bin\Debug\net8.0-windows\System.IO.Packaging.dll
+C:\ElGamalSignature\bin\Debug\net8.0-windows\Xceed.Document.NET.dll
+C:\ElGamalSignature\bin\Debug\net8.0-windows\Xceed.PDF.NET.dll
+C:\ElGamalSignature\bin\Debug\net8.0-windows\Xceed.Words.NET.dll
+C:\ElGamalSignature\obj\Debug\net8.0-windows\ElGamalS.B1C29A1C.Up2Date
+C:\ElGamalSignature\obj\Debug\net8.0-windows\ElGamalSignature.genruntimeconfig.cache
+C:\ElGamalSignature\obj\Debug\net8.0-windows\ref\ElGamalSignature.dll
