@@ -11,13 +11,32 @@ namespace ElGamalSignature
 {
     public partial class MainWindow : Window
     {
+        private void ResetFieldsRelatedToP()
+        {
+            // Reset tất cả các trường liên quan đến p
+            txtP.Text = ""; // Xóa giá trị không hợp lệ
+            txtAlpha.Text = "";
+            txtA.Text = "";
+            txtBeta.Text = "";
+            txtK.Text = "";
+            txtY.Text = "";
+
+            // Có thể thêm reset các trường khác nếu cần
+        }
 
         private void CheckKey()
         {
             try
             {
+                if (!BigInteger.TryParse(txtP.Text, out BigInteger p) || !ElGamalSignature.CheckPrime((int)p))
+                {
+                    // Nếu p không phải số nguyên tố, hiển thị thông báo lỗi và reset các giá trị liên quan
+                    MessageBox.Show("Số p không phải số nguyên tố! Vui lòng nhập lại.", "Lỗi!");
+                    ResetFieldsRelatedToP();
+                    return; // Thoát ra, chờ người dùng nhập lại p
+                }
                 // Parse and auto-randomize invalid inputs
-                BigInteger p = TryParseOrRandomize(txtP.Text, out bool isPValid, () => ElGamalSignature.FindPrime(), "p");
+                //BigInteger p = TryParseOrRandomize(txtP.Text, out bool isPValid, () => ElGamalSignature.FindPrime(), "p");
                 BigInteger alpha = TryParseOrRandomize(txtAlpha.Text, out bool isAlphaValid, () => ElGamalSignature.GenAlpha(p), "alpha");
                 BigInteger a = TryParseOrRandomize(txtA.Text, out bool isAValid, () => ElGamalSignature.GenA(p), "a");
                 BigInteger beta = TryParseOrRandomize(txtBeta.Text, out bool isBetaValid, () => ElGamalSignature.PowMod(alpha, a, p), "beta");
@@ -27,8 +46,8 @@ namespace ElGamalSignature
                 // Validate p
                 if (!ElGamalSignature.CheckPrime((int)p))
                 {
-                    txtP.Text = ElGamalSignature.FindPrime().ToString();
-                    CheckKey();
+                    MessageBox.Show("Số p không phải số nguyên tố! Vui lòng nhập lại.", "Lỗi!");
+                    txtP.Text = ""; // Xóa giá trị không hợp lệ
                     return;
                 }
 
@@ -218,10 +237,10 @@ namespace ElGamalSignature
             // Kiểm tra xem các giá trị khóa đã được nhập hay chưa
             if (string.IsNullOrWhiteSpace(txtP.Text) ||
                 string.IsNullOrWhiteSpace(txtAlpha.Text) ||
-                string.IsNullOrWhiteSpace(txtBeta.Text) ||
+               // string.IsNullOrWhiteSpace(txtBeta.Text) ||
                 string.IsNullOrWhiteSpace(txtA.Text) ||
-                string.IsNullOrWhiteSpace(txtK.Text) ||
-                string.IsNullOrWhiteSpace(txtY.Text))
+                string.IsNullOrWhiteSpace(txtK.Text) )
+                //string.IsNullOrWhiteSpace(txtY.Text))
             {
                 MessageBox.Show("Hãy nhập đầy đủ các khóa công khai và bí mật trước khi ký!", "Lỗi!");
                 return;
@@ -344,6 +363,11 @@ namespace ElGamalSignature
 
         private void btnTransferData_Click(object sender, RoutedEventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(txtHashResult.Text))
+            {
+                MessageBox.Show("Không có dữ liệu để chuyển tiếp!", "Lỗi!");
+                return;
+            }
             txtSignatureContent.Text = txtHashResult.Text;
         }
 

@@ -1,0 +1,99 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Li\u00EAn\\Documents\\Li\u00EAn 3\\An ninh m\u1EA1ng\\Elgamal_C\u002B\u002B\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Li\u00EAn\\Documents\\Li\u00EAn 3\\An ninh m\u1EA1ng\\Elgamal_C\u002B\u002B\\Chu_ky_so_Elgamal.pro (2).user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Chu_ky_so_Elgamal.pro (2).user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Li\u00EAn\\Documents\\Li\u00EAn 3\\An ninh m\u1EA1ng\\Elgamal_C\u002B\u002B\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Li\u00EAn\\Documents\\Li\u00EAn 3\\An ninh m\u1EA1ng\\Elgamal_C\u002B\u002B\\Chu_ky_so_Elgamal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Chu_ky_so_Elgamal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Li\u00EAn\\Documents\\Li\u00EAn 3\\An ninh m\u1EA1ng\\Elgamal_C\u002B\u002B_am\\Chu_ky_so_Elgamal.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Chu_ky_so_Elgamal.h",
+              "DocumentMoniker": "D:\\Li\u00EAn\\Documents\\Li\u00EAn 3\\An ninh m\u1EA1ng\\Elgamal_C\u002B\u002B_am\\Chu_ky_so_Elgamal.h",
+              "RelativeDocumentMoniker": "..\\Elgamal_C\u002B\u002B_am\\Chu_ky_so_Elgamal.h",
+              "ToolTip": "D:\\Li\u00EAn\\Documents\\Li\u00EAn 3\\An ninh m\u1EA1ng\\Elgamal_C\u002B\u002B_am\\Chu_ky_so_Elgamal.h",
+              "RelativeToolTip": "..\\Elgamal_C\u002B\u002B_am\\Chu_ky_so_Elgamal.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-21T13:46:04.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\Li\u00EAn\\Documents\\Li\u00EAn 3\\An ninh m\u1EA1ng\\Elgamal_C\u002B\u002B\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "D:\\Li\u00EAn\\Documents\\Li\u00EAn 3\\An ninh m\u1EA1ng\\Elgamal_C\u002B\u002B\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-21T10:29:00.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Chu_ky_so_Elgamal.cpp",
+              "DocumentMoniker": "D:\\Li\u00EAn\\Documents\\Li\u00EAn 3\\An ninh m\u1EA1ng\\Elgamal_C\u002B\u002B\\Chu_ky_so_Elgamal.cpp",
+              "RelativeDocumentMoniker": "Chu_ky_so_Elgamal.cpp",
+              "ToolTip": "D:\\Li\u00EAn\\Documents\\Li\u00EAn 3\\An ninh m\u1EA1ng\\Elgamal_C\u002B\u002B\\Chu_ky_so_Elgamal.cpp",
+              "RelativeToolTip": "Chu_ky_so_Elgamal.cpp",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAAANIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-21T07:36:22.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Chu_ky_so_Elgamal.pro (2).user",
+              "DocumentMoniker": "D:\\Li\u00EAn\\Documents\\Li\u00EAn 3\\An ninh m\u1EA1ng\\Elgamal_C\u002B\u002B\\Chu_ky_so_Elgamal.pro (2).user",
+              "RelativeDocumentMoniker": "Chu_ky_so_Elgamal.pro (2).user",
+              "ToolTip": "D:\\Li\u00EAn\\Documents\\Li\u00EAn 3\\An ninh m\u1EA1ng\\Elgamal_C\u002B\u002B\\Chu_ky_so_Elgamal.pro (2).user",
+              "RelativeToolTip": "Chu_ky_so_Elgamal.pro (2).user",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2024-12-21T07:34:53.344Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

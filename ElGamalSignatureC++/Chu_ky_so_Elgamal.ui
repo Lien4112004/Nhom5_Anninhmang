@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Chu_ky_so_Elgamal</class>
+ <widget class="QMainWindow" name="Chu_ky_so_Elgamal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>793</width>
+    <height>707</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Chu_ky_so_Elgamal</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(252, 251, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>751</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Variable Text</family>
+      <pointsize>18</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(240, 239, 255);</string>
+    </property>
+    <property name="title">
+     <string>Tạo khóa</string>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>50</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Variable Text</family>
+       <pointsize>12</pointsize>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="text">
+      <string>p</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::MarkdownText</enum>
+     </property>
+     <property name="openExternalLinks">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="pTxt">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>40</y>
+       <width>141</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Variable Text</family>
+       <pointsize>12</pointsize>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>50</y>
+       <width>21</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Variable Text</family>
+       <pointsize>12</pointsize>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="text">
+      <string>g</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="gTxt">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>40</y>
+       <width>141</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Variable Text</family>
+       <pointsize>12</pointsize>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>90</y>
+       <width>21</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Variable Text</family>
+       <pointsize>12</pointsize>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="text">
+      <string>x</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>50</y>
+       <width>16</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Variable Text</family>
+       <pointsize>12</pointsize>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="text">
+      <string>y</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="xTxt">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>80</y>
+       <width>141</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Variable Text</family>
+       <pointsize>12</pointsize>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="yTxt">
+     <property name="geometry">
+      <rect>
+       <x>590</x>
+       <y>40</y>
+       <width>141</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Variable Text</family>
+       <pointsize>12</pointsize>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(205, 200, 206);
+background-color: rgb(226, 226, 226);</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="random">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>120</y>
+       <width>131</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Variable Text</family>
+       <pointsize>12</pointsize>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(205, 205, 255);</string>
+     </property>
+     <property name="text">
+      <string>Tạo ngẫu nhiên</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="deleteKey">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>120</y>
+       <width>81</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Variable Text</family>
+       <pointsize>12</pointsize>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(205, 205, 255);</string>
+     </property>
+     <property name="text">
+      <string>Reset</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Variable Text</family>
+       <pointsize>14</pointsize>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 255);
+color: rgb(0, 0, 171);</string>
+     </property>
+     <property name="text">
+      <string>Khóa công khai :</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Variable Text</family>
+       <pointsize>14</pointsize>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 255);
+color: rgb(0, 0, 171);</string>
+     </property>
+     <property name="text">
+      <string>Khóa bí mật :</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="manual">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>120</y>
+       <width>121</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Variable Text</family>
+       <pointsize>12</pointsize>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(205, 205, 255);</string>
+     </property>
+     <property name="text">
+      <string>Tạo thủ công</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>220</y>
+      <width>361</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Variable Text</family>
+      <pointsize>18</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(240, 239, 255);</string>
+    </property>
+    <property name="title">
+     <string>Kiểm tra chữ ký</string>
+    </property>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>50</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Variable Text</family>
+       <pointsize>14</pointsize>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 255);
+color: rgb(0, 0, 171);</string>
+     </property>
+     <property name="text">
+      <string>Văn bản</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>240</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Variable Text</family>
+       <pointsize>14</pointsize>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 255);
+color: rgb(0, 0, 171);</string>
+     </property>
+     <property name="text">
+      <string>Chữ Ký</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="vanBanKT">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>90</y>
+       <width>241</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Variable Text</family>
+       <pointsize>12</pointsize>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="kiemTra">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>350</y>
+       <width>91</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Variable Text</family>
+       <pointsize>12</pointsize>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(205, 205, 255);</string>
+     </property>
+     <property name="text">
+      <string>Kiểm tra</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="fileCK">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>350</y>
+       <width>83</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Variable Text</family>
+       <pointsize>12</pointsize>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(205, 205, 255);</string>
+     </property>
+     <property name="text">
+      <string>File</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="fileKT">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>130</y>
+       <width>83</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Variable Text</family>
+       <pointsize>12</pointsize>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(205, 205, 255);</string>
+     </property>
+     <property name="text">
+      <string>File</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="chuKy_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>280</y>
+       <width>311</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Variable Text</family>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>220</y>
+      <width>361</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Variable Text</family>
+      <pointsize>18</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(240, 239, 255);</string>
+    </property>
+    <property name="title">
+     <string>Tạo chữ ký</string>
+    </property>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>50</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Variable Text</family>
+       <pointsize>14</pointsize>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 255);
+color: rgb(0, 0, 171);</string>
+     </property>
+     <property name="text">
+      <string>Văn bản</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>270</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Variable Text</family>
+       <pointsize>14</pointsize>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 255);
+color: rgb(0, 0, 171);</string>
+     </property>
+     <property name="text">
+      <string>Chữ ký</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="vanBanKy">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>90</y>
+       <width>241</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Variable Text</family>
+       <pointsize>12</pointsize>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="taoChuKy">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>230</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Variable Text</family>
+       <pointsize>12</pointsize>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(205, 205, 255);</string>
+     </property>
+     <property name="text">
+      <string>Ký</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="chuyen">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>380</y>
+       <width>91</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Variable Text</family>
+       <pointsize>12</pointsize>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(205, 205, 255);</string>
+     </property>
+     <property name="text">
+      <string>Chuyển</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="luuChuky">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>380</y>
+       <width>83</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Variable Text</family>
+       <pointsize>12</pointsize>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(205, 205, 255);</string>
+     </property>
+     <property name="text">
+      <string>Lưu</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="fileVB">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>130</y>
+       <width>83</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Variable Text</family>
+       <pointsize>12</pointsize>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(205, 205, 255);</string>
+     </property>
+     <property name="text">
+      <string>File</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="chuKy_1">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>310</y>
+       <width>311</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Variable Text</family>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="luuVB">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>230</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Variable Text</family>
+       <pointsize>12</pointsize>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(205, 205, 255);</string>
+     </property>
+     <property name="text">
+      <string>Lưu văn bản</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>0</y>
+      <width>241</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Variable Text</family>
+      <pointsize>20</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(170, 85, 255);</string>
+    </property>
+    <property name="text">
+     <string>Chữ Ký Số Elgamal</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
