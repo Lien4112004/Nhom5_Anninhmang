@@ -108,3 +108,6 @@ C:\ElGamalSignature\bin\Debug\net8.0-windows\Xceed.Words.NET.dll
 C:\ElGamalSignature\obj\Debug\net8.0-windows\ElGamalS.B1C29A1C.Up2Date
 C:\ElGamalSignature\obj\Debug\net8.0-windows\ElGamalSignature.genruntimeconfig.cache
 C:\ElGamalSignature\obj\Debug\net8.0-windows\ref\ElGamalSignature.dll
+D:\Download\ElGamalSignature (1)\ElGamalSignature\obj\Debug\net8.0-windows\ElGamalSignature.dll
+D:\Download\ElGamalSignature (1)\ElGamalSignature\obj\Debug\net8.0-windows\refint\ElGamalSignature.dll
+D:\Download\ElGamalSignature (1)\ElGamalSignature\obj\Debug\net8.0-windows\ElGamalSignature.pdb
